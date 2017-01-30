@@ -14,6 +14,7 @@ body{
 }
 
 /*Trarando Menu*/
+
 .menu ul{
     list-style: none;/*Tirando as bolinhas da ul*/
     float: left; /*Fazendo a ul ficar à esquerda*/
@@ -48,6 +49,7 @@ body{
     background-color: #fff;/*cor do fundo*/
     display: none;/*escondendo menu*/
     border-bottom:1px solid #c0c0c0;/*borda a baixo*/
+    z-index: 1;
 }
 
 .menu ul li:hover ul, .menu ul li.ul {display: block;}
@@ -59,8 +61,11 @@ body{
     width: 160px;
 }
 
-.cadastro{
+
+.container_cadastro{
     position: absolute;
     top:70px;
+    left: 50px;
+    z-index: 0;
 }
 

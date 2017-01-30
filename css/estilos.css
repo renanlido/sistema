@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/*Estilo do body*/
+body{
+    font-family: Arial, helvetica , sans-serif;
+    font-size: 12px;
+    background: url("../img/contab.png") no-repeat cornflowerblue 50% 40% fixed;
+    background-size: 400px;
+}
+
+/*Trarando Menu*/
+.menu ul{
+    list-style: none;/*Tirando as bolinhas da ul*/
+    float: left; /*Fazendo a ul ficar à esquerda*/
+    background: white; /*Dando cor de fundo branca*/
+}
+
+.menu ul li{
+    position: relative; /*A li é relativa à posição da sua ul respectiva*/
+    float: left; /*Fazendo a li da ul flutuar para a esquerda*/
+    border-right: 1px solid #c0c0c0;/*Dando borda para a direita*/
+}
+
+.menu ul li a{
+    color: #333;/*Dando cor para o link*/
+    text-decoration: none;/*Tirando o sublinhado*/
+    padding: 5px 10px;/*Dando espaçamento interno*/
+    display: block;/*Dando tramento de bloco para o menu*/
+}
+
+.menu ul li a:hover{
+    background: #333;/*cor de fundo para quando passar o mouse por cima do link */
+    color:#fff; /*Cor da letra*/
+    text-shadow: 0 0 5px #fff;/*Sombreamento da letra*/
+}
+
+/*Estilo submenu*/
+
+.menu ul li ul{
+    position: absolute;/*posição absoluta ao elemento anterior*/
+    top: auto; /*posição ao topo relativa automática*/
+    left:0;/*posoção relativa a esquerda 0*/
+    background-color: #fff;/*cor do fundo*/
+    display: none;/*escondendo menu*/
+    border-bottom:1px solid #c0c0c0;/*borda a baixo*/
+}
+
+.menu ul li:hover ul, .menu ul li.ul {display: block;}
+
+.menu ul li ul li{
+    border-top: 1px solid #c0c0c0;
+    border-left: 1px solid #c0c0c0;
+    display: block;
+    width: 160px;
+}
+

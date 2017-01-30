@@ -1,0 +1,20 @@
+Index: cadastros.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- cadastros.html	(revision )
++++ cadastros.html	(revision )
+@@ -0,0 +1,11 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>CADASTROS</title>
++
++</head>
++<body>
++
++</body>
++</html>
+\ No newline at end of file

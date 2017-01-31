@@ -52,7 +52,7 @@ body{
     z-index: 1;
 }
 
-.menu ul li:hover ul, .menu ul li.ul {display: block;}
+.menu ul li:hover ul, .menu ul li {display: block;}
 
 .menu ul li ul li{
     border-top: 1px solid #c0c0c0;
@@ -61,11 +61,20 @@ body{
     width: 160px;
 }
 
-
-.container_cadastro{
-    position: absolute;
-    top:70px;
-    left: 50px;
-    z-index: 0;
+.menu ul li ul li ul li{
+    display: none;
 }
 
+.menu ul li ul li ul {
+    top:0;
+    left: 100%;
+}
+
+.menu ul li ul li:hover ul li{
+    border-top: 1px solid #c0c0c0;
+    border-left: 1px solid #c0c0c0;
+    display: block;
+    width: 160px;
+
+
+}

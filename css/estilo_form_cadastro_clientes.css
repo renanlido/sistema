@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+form{
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #ffffff;
+    max-width: 800px;
+    padding: 20px;
+}
+
+fieldset{
+    position: absolute;
+    top:70px;
+    left: 270px;
+    width: 800px;
+}
+
+h1{
+    margin:0 0 20px 191px;
+}
+
+input{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.container_cadastro div{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#cad_razao_social{
+    width: 600px;
+}
+
+#cad_endereco{
+    margin-left: 31px;
+    margin-right: 5px;
+    width: 500px;
+}
+
+#cad_numero{
+    width: 50px;
+}
+
+#cad_bairro{
+    margin-right: 5px;
+    width: 150px;
+}
+
+#cad_complemento{
+    margin-right: 5px;
+}
+
+.cep_uf{
+    margin-left: 191px;
+}
+#cad_cep{
+    margin-right: 5px;
+}
+
+.button{
+    margin-left: 150px;
+}

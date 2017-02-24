@@ -6,53 +6,6 @@
     <meta charset="UTF-8">
     <title>CADASTRO E GERAÇÃO DE HONORÁRIOS</title>
 </head>
-<body>
-
-<nav class="menu">
-    <ul>
-        <li><a href="#">CADASTROS</a>
-            <ul>
-                <li><a href="clientes.html">CLIENTES</a>
-                    <ul>
-                        <li><a href="#">NOVO</a></li>
-                        <li><a href="#">CONSULTA</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="#">SERVIÇOS</a>
-                    <ul>
-                        <li><a href="#">NOVO</a></li>
-                        <li><a href="#">CONSULTA</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-
-        <li><a href="#">HONORÁRIOS</a>
-            <ul class="menu_dropdown">
-                <li><a href="#">GERAR NOVO</a></li>
-                <li><a href="#">CONSULTA REGISTROS</a></li>
-                <li><a href="#">SALDO DO PERÍODO</a></li>
-            </ul>
-        </li>
-
-        <li><a href="#">IMPRESSÃO</a>
-            <ul class="menu_dropdown">
-                <li><a href="#">HONORÁRIOS</a></li>
-                <li><a href="#">LISTA DE CLIENTES</a></li>
-                <li><a href="#">RELATÓRIO DO PERÍODO</a></li>
-            </ul>
-        </li>
-
-        <li><a href="#">CONFIGURAÇÃO</a>
-            <ul class="menu_dropdown">
-                <li><a href="#">CONTADOR</a></li>
-            </ul>
-        </li>
-
-        <li><a href="#">SAIR</a></li>
-    </ul>
-</nav>
 
 <fieldset class="container_cadastro">
     <form name="form_cliente" method="post" class="frm_cliente">
@@ -101,7 +54,7 @@
             <input type="button" value="NOVO">
             <input type="submit" value="CADASTRAR">
             <a href="#"><input type="button" value="CONSULTAR CADASTRO"></a>
-            <a href="index.html"><input type="BUTTON" VALUE="SAIR"></a>
+            <a href="index.php"><input type="BUTTON" VALUE="SAIR"></a>
         </div>
     </form>
 </fieldset>
